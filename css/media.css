@@ -196,50 +196,7 @@
     .section5 > .row .col-7 {
         padding-right: 10px;
     }
-    /* .section5 .row1 img {
-        margin-left: 45px;
-        margin-top: 2px;
-        margin-right: 10px;
-        width: 23;
-        height: 28.4px; 
-    }
-    .section5 .row2 img {
-        margin-left: 45px;
-        margin-top: 20px;
-        margin-right: 10px;
-        width: 23;
-        height: 25px; 
-    }
-    .section5 .row3 img {
-        margin-left: 45px;
-        margin-right: 10px;
-        width: 23;
-        height: 25px;
-        margin-top: 30px; 
-    }
-    .section5 .row1 .col-4 .col1 p, .section5 .row2 .col-4 .col2 p, .section5 .row3 .col-4 .col3 p{
-        font-size: 14px;
-        line-height: 24px;
-    }
-    .section5 .row3 .col-4 .col3 p{
-        margin-top: 24px;
-    }
-    .section5 .row1 .col-6, .section5 .row2 .col-6, .section5 .row3 .col-6 {
-        margin-left: 30px !important; 
-    }
-    .section5 .row1 .col-6 .form-control > input::placeholder{
-        font-size: 10px;
-    }
-    .section5 .row3 .col-6 .btn-black{
-        display: flex;
-        justify-content: center;
-    }
-    .section5 .row3 .col-6 .btn-black .send{
-        border-radius: unset;
-        margin-top: 30px;
-        margin-left: auto;
-        padding: 5px 70px;
-    } */
+   
     .section5 h2{
         margin-top: 30px;
     }
@@ -314,7 +271,7 @@
         line-height: 80px;
     }
     iframe{
-        width: 700px;
+        width: 100%;
     }
     .location__page > h2{
         padding-top: 280px;
@@ -404,7 +361,7 @@
     #carusel > ul{
         padding: 0;
     }
-    .section5 .row1 img {
+    /* .section5 .row1 img {
         margin-left: 25px;
         margin-top: 2px;
         margin-right: 2px;
@@ -447,7 +404,7 @@
         margin-top: 30px;
         margin-left: auto;
         padding: 5px 70px;
-    }
+    } */
     footer .container-fluid .menu{
         display: flex;
         justify-content: space-between;
@@ -455,9 +412,9 @@
     footer .container-fluid .menu ul li a .twitter{
         margin-right: 20px;
     }
-    footer .container-fluid .menu .logo .rounded-circle{
+    /* footer .container-fluid .menu .logo .rounded-circle{
         margin-left: 20px;
-    }
+    } */
     footer .container-fluid .menu .developer h4{
         margin-bottom: 0;
         font-size: 0;
@@ -480,7 +437,7 @@
     .section2 .row .img1, .section2 .row .img1 .img2 {
         display: none;
     }
-    header .container-fluid .menu {
+    header .container-fluid .menu, footer .container-fluid .menu {
         padding: 0 10px;
     }
     .location__info {
@@ -493,9 +450,9 @@
     line-height: 65px;
 }
 iframe{
-    width: 520px;
+    width: 100%;
 }
-header .container-fluid .menu {
+header .container-fluid .menu, footer .container-fluid .menu {
     padding: 0 30px;
 }
 .location__info {
@@ -542,7 +499,7 @@ header .container-fluid .menu {
         line-height: 70px;
     } 
     iframe{
-        width: 600px;
+        width: 100%;
     }
     .location__page > h2{
         padding-top: 200px;
@@ -738,12 +695,11 @@ header .container-fluid .menu {
     }
     footer .container-fluid .menu{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
     footer .container-fluid .menu ul{
         display: flex;
         flex-direction: row;
-        padding: 0 130px;
     }
     footer .container-fluid .menu ul li a .facebook{
         margin-top: 20px;
@@ -756,18 +712,11 @@ header .container-fluid .menu {
         margin-left: 0;
         margin-top: 20px;
     }
-    footer .container-fluid .menu .logo .rounded-circle{
+    /* footer .container-fluid .menu .logo .rounded-circle{
         margin-left: 0;
-    }
+    } */
     footer .container-fluid .menu .developer h4{
-        margin-bottom: 0;
-        margin-top: 5px;
-        font-size: 16px;
-        padding: 0 100px;
-    }
-    .logo{
-        margin-top: 20px;
-        padding: 0 100px;
+        font-size: 0;
     }
     }
 @media(min-width: 768px){
@@ -780,7 +729,7 @@ header .container-fluid .menu {
         margin-right: 0px!important;
     }
     header .container-fluid #menu ul li{
-        margin: 36px 10px;
+        margin: 30px 5px;
 }
 .weeding__info > h2{
     padding-left: 90px;
@@ -790,17 +739,17 @@ header .container-fluid .menu {
 }
 @media(min-width: 480px) and (max-width:575px){
     iframe{
-        width: 420px;
+        width: 100%;
     }
 }
 @media(min-width: 400px) and (max-width:479px){
     iframe{
-        width: 350px;
+        width: 100%;
     }
 }
 @media(min-width: 320px) and (max-width:399px){
     iframe{
-        width: 275px;
+        width: 100%;
     }
 }
 @media(min-width: 400px) and (max-width:575px){
@@ -897,12 +846,11 @@ header .container-fluid .menu {
 }
 footer .container-fluid .menu{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 footer .container-fluid .menu ul{
     display: flex;
     flex-direction: row;
-    padding: 0 70px;
 }
 footer .container-fluid .menu ul li a .facebook{
     margin-top: 20px;
@@ -915,18 +863,15 @@ footer .container-fluid .menu ul li a .instagram{
     margin-left: 0;
     margin-top: 20px;
 }
-footer .container-fluid .menu .logo .rounded-circle{
+/* footer .container-fluid .menu .logo .rounded-circle{
     margin-left: 0;
-}
+} */
 footer .container-fluid .menu .developer h4{
-    margin-bottom: 0;
-    margin-top: 5px;
-    font-size: 16px;
-    padding: 0 80px;
+    font-size: 0;
 }
-.logo{
+/* .logo{
     margin-top: 20px;
-}
+} */
 .product__item{
     max-width:570px;
  }
@@ -935,6 +880,25 @@ footer .container-fluid .menu .developer h4{
  }
  .product__slider__info{
     max-width: 570px;
+ }
+
+ .product__item{
+    width: 100%;
+ }
+ .slick-slider {
+    padding: 0;
+}
+.product__item .slick-prev {
+    left: 0;
+}
+.product__item .slick-next {
+    right: 0;
+}
+ .product__item > img{
+    height: 230px;
+ }
+ .product__slider__info{
+    width: 100%;
  }
  .slick__btn{
     top: 50%;
@@ -945,6 +909,7 @@ footer .container-fluid .menu .developer h4{
 }
 .product__slider__info h4 {
     font-size: 28px;
+    margin-top: 15px;
 }
 .product__slider{
     display: block;
@@ -969,6 +934,9 @@ footer .container-fluid .menu .developer h4{
 .section5 > .row > .col-5, .section5 > .row > .col-7{
     max-width: 100%;
     padding-right: 0;
+}
+.location__info {
+    padding: 10px;
 }
 }
 @media(min-width:470px) and (max-width: 495px){
@@ -1077,43 +1045,44 @@ footer .container-fluid .menu .developer h4{
     } */
     footer .container-fluid .menu{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
     footer .container-fluid .menu ul{
         display: flex;
         flex-direction: row;
     }
     footer .container-fluid .menu ul li a .facebook{
-        margin-top: 15px;
+        margin: 15px 5px 15px 0;
     }
     footer .container-fluid .menu ul li a .twitter{
-        margin-right: 0;
-        margin-top: 15px;
+        margin: 15px 0 15px 0;
     }
     footer .container-fluid .menu ul li a .instagram{
-        margin-left: 0;
-        margin-top: 15px;
+        margin: 15px 5px 15px 0;
     }
-    footer .container-fluid .menu .logo .rounded-circle{
+    /* footer .container-fluid .menu .logo .rounded-circle{
         margin-left: 0;
-    }
+    } */
     footer .container-fluid .menu .developer h4{
-        margin-bottom: 0;
-        margin-top: 5px;
-        font-size: 14px;
-        padding: 0 45px;
-    }
-    .logo{
-        margin-top: 20px;
+        font-size: 0;
     }
     .product__item{
-        max-width:390px;
+        width: 100%;
      }
+     .slick-slider {
+        padding: 0;
+    }
+    .product__item .slick-prev {
+        left: 0;
+    }
+    .product__item .slick-next {
+        right: 0;
+    }
      .product__item > img{
         height: 230px;
      }
      .product__slider__info{
-        max-width: 390px;
+        width: 100%;
      }
      .slick__btn{
         top: 50%;
@@ -1124,6 +1093,7 @@ footer .container-fluid .menu .developer h4{
     }
     .product__slider__info h4 {
         font-size: 28px;
+        margin-top: 15px;
     }
     .product__slider{
         display: block;
@@ -1140,9 +1110,9 @@ footer .container-fluid .menu .developer h4{
         line-height: 24px;
         padding: 8px;
     }
-    footer .container-fluid .menu .logo .rounded-circle {
+    /* footer .container-fluid .menu .logo .rounded-circle {
         display: none;
-    }
+    } */
 }
 
 
