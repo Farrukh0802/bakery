@@ -377,50 +377,7 @@
     #carusel > ul{
         padding: 0;
     }
-    /* .section5 .row1 img {
-        margin-left: 25px;
-        margin-top: 2px;
-        margin-right: 2px;
-        width: 20;
-        height: 25.4px; 
-    }
-    .section5 .row2 img {
-        margin-left: 25px;
-        margin-top: 25px;
-        margin-right: 2px;
-        width: 20;
-        height: 22px; 
-    }
-    .section5 .row3 img {
-        margin-left: 25px;
-        margin-right: 2px;
-        width: 20;
-        height: 22px;
-        margin-top: 35px; 
-    }
-    .section5 .row1 .col-4 .col1 p, .section5 .row2 .col-4 .col2 p, .section5 .row3 .col-4 .col3 p{
-        font-size: 14px;
-        line-height: 22px;
-    }
-    .section5 .row3 .col-4 .col3 p{
-        margin-top: 24px;
-    }
-    .section5 .row1 .col-6, .section5 .row2 .col-6, .section5 .row3 .col-6 {
-        margin-left: 30px !important; 
-    }
-    .section5 .row1 .col-6 .form-control > input::placeholder{
-        font-size: 10px;
-    }
-    .section5 .row3 .col-6 .btn-black{
-        display: flex;
-        justify-content: center;
-    }
-    .section5 .row3 .col-6 .btn-black .send{
-        border-radius: unset;
-        margin-top: 30px;
-        margin-left: auto;
-        padding: 5px 70px;
-    } */
+    
     footer .container-fluid .menu{
         display: flex;
         justify-content: space-between;
@@ -428,9 +385,6 @@
     footer .container-fluid .menu ul li a .twitter{
         margin-right: 20px;
     }
-    /* footer .container-fluid .menu .logo .rounded-circle{
-        margin-left: 20px;
-    } */
     footer .container-fluid .menu .developer h4{
         margin-bottom: 0;
         font-size: 0;
@@ -458,9 +412,6 @@
     }
     header .container-fluid .menu, footer .container-fluid .menu, .sliderBig__cake {
         padding: 5px 10px;
-    }
-    .sliderBig__cake {
-        height: 300px;
     }
     .location__info {
         padding: 30px;
@@ -751,9 +702,6 @@ header .container-fluid .menu, footer .container-fluid .menu, .sliderBig__cake {
         margin-left: 0;
         margin-top: 20px;
     }
-    /* footer .container-fluid .menu .logo .rounded-circle{
-        margin-left: 0;
-    } */
     footer .container-fluid .menu .developer h4{
         font-size: 0;
     }
@@ -915,15 +863,10 @@ footer .container-fluid .menu ul li a .instagram{
     margin-left: 0;
     margin-top: 20px;
 }
-/* footer .container-fluid .menu .logo .rounded-circle{
-    margin-left: 0;
-} */
+
 footer .container-fluid .menu .developer h4{
     font-size: 0;
 }
-/* .logo{
-    margin-top: 20px;
-} */
 .product__item{
     max-width:570px;
  }
@@ -1090,14 +1033,7 @@ footer .container-fluid .menu .developer h4{
     .section5 .row1 .col-6 .form-control > input::placeholder{
         font-size: 10px;
     }
-    /* .section5 .row3 .col-6 .btn-black{
-        display: flex;
-        justify-content: center;
-    }
-    .section5 .row3 .col-6 .btn-black .send{
-        margin-left: -90%;
-        padding: 5px 110px;
-    } */
+    
     footer .container-fluid .menu{
         display: flex;
         justify-content: space-between;
@@ -1115,9 +1051,7 @@ footer .container-fluid .menu .developer h4{
     footer .container-fluid .menu ul li a .instagram{
         margin: 15px 5px 15px 0;
     }
-    /* footer .container-fluid .menu .logo .rounded-circle{
-        margin-left: 0;
-    } */
+    
     footer .container-fluid .menu .developer h4{
         font-size: 0;
     }
@@ -1165,9 +1099,6 @@ footer .container-fluid .menu .developer h4{
         line-height: 24px;
         padding: 8px;
     }
-    /* footer .container-fluid .menu .logo .rounded-circle {
-        display: none;
-    } */
 }
 
 
