@@ -167,7 +167,7 @@
         display: block;
      }
      .location__content > .detail{
-        max-width: 800px;
+        max-width: 100%;
      }
     .section3 h2, .section5 h2{
        font-size: 30px;
@@ -966,6 +966,9 @@ footer .container-fluid .menu .developer h4{
 }
 }
 @media(max-width:575px){
+    .location__content > .detail{
+        max-width: 100%;
+     }
 .section2 .row > .col-4{
     flex: 0 0 50%;
     max-width: 100%;
