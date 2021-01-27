@@ -112,17 +112,17 @@ body {
     .section2 h2 {
    padding: 140px 0 0 0;
   font-weight: 700;
-  font-size: 130px;
+  font-size: 80px;
   font-family: "Mukta-Medium";
 color:#fff; }  .section2 .row {
   margin-right: 0; }
   .section2 .row{
      justify-content: space-around;
-     margin-top: 110px;
+     margin-top: 60px;
      margin-bottom: 10px;
   }
   .section2 .row .col-4 h4 {
-     font-size: 42px;
+     font-size: 36px;
      color: #fff;
   }
  .section2 .row .col-4 p {
@@ -277,7 +277,7 @@ color:#fff; }  .section2 .row {
    grid-template-columns: repeat(3, 1fr);
    grid-auto-rows: 200px;
    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
-  }
+  
   /* .weeding__content > ul{
      list-style: circle;
      padding-left: 25px;
@@ -382,7 +382,7 @@ color:#fff; }  .section2 .row {
       display: flex;
       justify-content: right; }
    .section5 .row .col-7 .btn-black .send {
-      border-radius: unset;
+      border-radius: 32px;
       margin-top: 30px;
       margin-left: auto;
       background-color: #090C0E;
@@ -544,7 +544,7 @@ footer {
                margin-right: auto;
            }
            .sliderBig__item > img{
-              width: 780px;
+              width: 100%;
               height: 350px;
            }
            .slider__cake > .slick-list > .slick-track > .sliderBig__item > img {
@@ -609,12 +609,29 @@ footer {
                position: relative;
                padding: 15px 10px
             }
+            
+            .sliderBig__cake{
+               padding: 0 45px;
+           }
             .product__slider__info{
                max-width: 350px;
             }
-            .product__slider__info h4{
+            .product__slider__info h4, .location__info > h2{
                font-size: 36px;
                font-weight: 600;
+            }
+            .product__order{
+               border-radius: 32px;
+               margin-top: 30px;
+               margin-left: auto;
+               background-color: #090C0E;
+               color: #fff;
+               padding: 5px 30px;
+               text-align: right;
+               font-size: 24px;
+               font-weight: 400;
+               font-family: "Mukta-Medium", sans-serif;
+               line-height: 39.89px;
             }
             .slick__btn{
                position: absolute;

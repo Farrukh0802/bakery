@@ -2,9 +2,17 @@
     .section3 .cake img{
         width: 28%;
     }
+    header .container-fluid #menu ul li {
+        margin: 24px 16px;
+    }
     
 }
 @media(min-width: 1200px){
+    .sliderBig__cake{
+        width: 900px!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .section2 h2 {
         padding: 140px 0 0 0;
         margin-bottom: 50px;
@@ -71,6 +79,12 @@
 
 }
 @media (min-width: 991px) and (max-width: 1199px) {
+    
+    .sliderBig__cake{
+        width: 900px!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .section2 .row .img1{
         width: 340px;
         margin-left: 6%;
@@ -94,9 +108,6 @@
         margin-top: 10px;
         font-size: 24px;
         line-height: 34px;
-    }
-    .section2 h2{
-        font-size: 62px;
     }
     .section3 .cake img {
         width: 30%;
@@ -184,6 +195,11 @@
    }
 }
 @media(min-width: 860px) and (max-width: 990px) {
+    .sliderBig__cake{
+        width: 820px!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .weeding__title{
         font-size: 68px;
         line-height: 90px;
@@ -226,9 +242,9 @@
     .section2 .row .img1 .img2 > img{
         width: 240px;
     }
-    .section2 .row .col-4 p{
+    .section2 .row .col-4 p, .product__info > p, .location__content > .detail > p{
         margin-top: 10px;
-        font-size: 22px;
+        font-size: 18px;
         line-height: 28px;
     }
     .section3 .cake img{
@@ -295,7 +311,7 @@
     .section2 .row .img1 .img2 > img{
         width: 190px;
     }
-    .section2 .row .col-4 p{
+    .section2 .row .col-4 p, .product__info > p, .location__content > .detail > p{
         margin-top: 10px;
         font-size: 18px;
         line-height: 24px;
@@ -437,11 +453,27 @@
     .section2 .row .img1, .section2 .row .img1 .img2 {
         display: none;
     }
-    header .container-fluid .menu, footer .container-fluid .menu {
-        padding: 0 10px;
+    .section2 .row .col-4 h4, .product__slider__info h4, .location__info > h2 {
+        font-size: 28px;
+    }
+    header .container-fluid .menu, footer .container-fluid .menu, .sliderBig__cake {
+        padding: 5px 10px;
+    }
+    .sliderBig__cake {
+        height: 300px;
     }
     .location__info {
         padding: 30px;
+    }
+    .product__order {
+        border-radius: 32px;
+        margin-top: 20px;
+        margin-right: auto;
+        background-color: #090C0E;
+        color: #fff;
+        padding: 0px 25px;
+        text-align: center;
+        font-size: 18px;
     }
 }
 @media (min-width:576px) and (max-width:653px){
@@ -452,8 +484,11 @@
 iframe{
     width: 100%;
 }
-header .container-fluid .menu, footer .container-fluid .menu {
-    padding: 0 30px;
+.section2 .row .col-4 h4, .product__slider__info h4, .location__info > h2 {
+    font-size: 28px;
+}
+header .container-fluid .menu, footer .container-fluid .menu, .sliderBig__cake {
+    padding: 5px 30px;
 }
 .location__info {
     padding: 30px;
@@ -471,9 +506,6 @@ header .container-fluid .menu, footer .container-fluid .menu {
  .location__content {
     display: block;
  }
-.sliderBig__item > img{
-    width: 500px;
-}
 .product__item{
     max-width:370px;
  }
@@ -511,7 +543,7 @@ header .container-fluid .menu, footer .container-fluid .menu {
     .location__page{
         height: 80vh;
      }
-    .section2 .row .col-4 h4 {
+    .section2 .row .col-4 h4, .product__slider__info h4, .location__info > h2 {
         font-size: 28px;
     }
     .product__item{
@@ -538,11 +570,18 @@ header .container-fluid .menu, footer .container-fluid .menu {
     footer{
         margin-top: 70px;
     }
-    .section2 .row .col-4 p{
+    .section2 .row .col-4 p, .product__info > p, .location__content > .detail > p{
         margin-top: 10px;
         font-size: 16px;
         line-height: 20px;
     }
+    .section2 > .row {
+        display: block;
+    }
+    .section2 > .row > .col-4 {
+        max-width: 100%;
+    }
+    
     .weeding__info > h2{
         padding-left: 0;
         padding-right: 0;
@@ -560,7 +599,7 @@ header .container-fluid .menu, footer .container-fluid .menu {
         padding-top: 80px;
     }
     .section2 .row{
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .section3 h2{
         margin: 30px 0;
@@ -731,6 +770,16 @@ header .container-fluid .menu, footer .container-fluid .menu {
     header .container-fluid #menu ul li{
         margin: 30px 5px;
 }
+.product__slider__info h4, .location__info > h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.section2 .row .col-4 h4 {
+    font-size: 32px;
+}
+.section2 .row {
+    margin-top: 50px;
+}
 .weeding__info > h2{
     padding-left: 90px;
     padding-right: 90px;
@@ -757,6 +806,9 @@ header .container-fluid .menu, footer .container-fluid .menu {
         font-size: 38px;
         line-height: 55px;
     }
+    .sliderBig__cake{
+        padding: 0 10px;
+    }
     .location__page > h2{
         padding-top: 270px;
         font-size: 64px;
@@ -779,7 +831,7 @@ header .container-fluid .menu, footer .container-fluid .menu {
 }
 .slick-slide img {
     display: flex;
-    width: 370px;
+    width: 100%;
     height: 300px;
 }
 .section3 .cake img{
@@ -885,9 +937,6 @@ footer .container-fluid .menu .developer h4{
  .product__item{
     width: 100%;
  }
- .slick-slider {
-    padding: 0;
-}
 .product__item .slick-prev {
     left: 0;
 }
@@ -919,7 +968,7 @@ footer .container-fluid .menu .developer h4{
 @media(max-width:575px){
 .section2 .row > .col-4{
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 100%;
 }
 .section2 .row .img1, .section2 .row .img1 .img2 {
     display: none;
@@ -959,6 +1008,9 @@ footer .container-fluid .menu .developer h4{
         font-size: 36px;
         line-height: 45px;
     }
+    .main__cake{
+        padding: 0 10px;
+    }
     .location__page > h2{
         padding-top: 200px;
         font-size: 56px;
@@ -972,11 +1024,11 @@ footer .container-fluid .menu .developer h4{
      .location__content {
         display: block;
      }
-    .sliderBig__item > img{
-        width: 400px;
-    }
+     .logo{
+         width: 170px;
+     }
     .section2 .row .col-4 h4 {
-        font-size: 18px;
+        font-size: 28px;
     }
     .section3 .cake img{
         width: 80%;
@@ -1069,8 +1121,8 @@ footer .container-fluid .menu .developer h4{
     .product__item{
         width: 100%;
      }
-     .slick-slider {
-        padding: 0;
+     .slider__cake {
+        padding: 5px!important;
     }
     .product__item .slick-prev {
         left: 0;
